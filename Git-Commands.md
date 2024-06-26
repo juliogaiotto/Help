@@ -6,7 +6,7 @@
   <p><i>Note que será criado uma pasta ".git" oculta dentro do diretório onde foi usado o comando </i></p>
 </div>
 
-[![image001](https://github.com/juliogaiotto/Help/assets/image001.png)](assets/image001.png)
+[![image001](https://github.com/juliogaiotto/Help/assets/image001.png)](https://github.com/juliogaiotto/Help/assets/image001.png)
 
 <div align="center" markdown="1">
 
