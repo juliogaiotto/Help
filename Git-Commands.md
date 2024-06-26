@@ -6,7 +6,7 @@
   <p><i>Note que será criado uma pasta ".git" oculta dentro do diretório onde foi usado o comando </i></p>
 </div>
 
-(https://raw.githubusercontent.com/juliogaiotto/Help/main/assets/image001.png)
+![image1](https://raw.githubusercontent.com/juliogaiotto/Help/main/assets/image001.png)
 ![Image](https://user-images.githubusercontent.com/6553765/264495956-f81c54e0-d390-487e-a9cc-71f543ded07f.png)
 ![image001](https://github.com/juliogaiotto/Help/assets/image001.png)
 
