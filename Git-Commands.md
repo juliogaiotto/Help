@@ -2,7 +2,7 @@
 
 <div>
   <p>Comando para inicializar o repositório Git na pasta selecionada:</p>
-  <code style="padding: 20 10;">$ git init </code>
+  <code style="padding: 20px 10px;">$ git init </code>
   <p><i>Note que será criado uma pasta ".git" oculta dentro do diretório onde foi usado o comando </i></p>
 </div>
 
