@@ -1,5 +1,10 @@
 # Lista de Comandos uteis do Git
 
+<div>
+Comando para inicializar o Git no diretório selecionado
+<code>$ git init </code>
+</div>
+
 <div align="center" markdown="1">
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)&#160;
