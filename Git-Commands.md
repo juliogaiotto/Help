@@ -6,6 +6,8 @@
   <p><i>Note que será criado uma pasta ".git" oculta dentro do diretório onde foi usado o comando </i></p>
 </div>
 
+
+
 ## Configurações iniciais em repositórios
 Observe a imagem abaixo e veja as informações a seguir:
 ![image001](https://github.com/juliogaiotto/Help/blob/main/assets/image001.png)
