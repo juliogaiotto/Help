@@ -1,10 +1,11 @@
-# Lista de Comandos uteis do Git
+# Lista de Comandos Básicos do Git
 
 <div>
   <p>Comando para inicializar o repositório Git na pasta selecionada:</p>
   <code>$ git init </code>
-  <i>Note que será criado uma pasta ".git" oculta dentro do diretório onde foi usado o comando </i>
+  <p><i>Note que será criado uma pasta ".git" oculta dentro do diretório onde foi usado o comando </i></p>
 </div>
+![image](https://github.com/juliogaiotto/Help/assets/6553765/37783d5c-3a3e-4db0-9228-d52f0220ea19)
 
 <div align="center" markdown="1">
 
