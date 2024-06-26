@@ -2,20 +2,27 @@
 
 <div>
   <p>Comando para inicializar o repositório Git na pasta selecionada:</p>
-  <code style="padding: 20px 10px;">$ git init </code>
+  <code> git init </code>
   <p><i>Note que será criado uma pasta ".git" oculta dentro do diretório onde foi usado o comando </i></p>
 </div>
 
 <br><br>
 
-## Configurações iniciais em repositórios
+## Configurações Iniciais
 Observe a imagem abaixo e veja as informações a seguir:
 ![image001](https://github.com/juliogaiotto/Help/blob/main/assets/image001.png)
 
-###Define as configurações para os repositorios locais ()
-<code>git config --local </code>
+Define as configurações ao nivel de Repositório. Destacado na imagem em cor cinza e ao centro.
+<br>
+<code>git config --local ... </code>
 
+Define as configurações para o nivel de Usuários. Destacado na imagem em cor verde.
+<br>
+<code>git config --global ... </code>
 
+Define as configurações para o nivel de Sistema. Destacado na imagem em cor azul.
+<br>
+<code>git config --system ... </code>
 
 
 <div align="center" markdown="1">
