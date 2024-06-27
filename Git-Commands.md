@@ -91,6 +91,32 @@ flowchart LR
 ```
 
 
+## Comandos Mais Usados
+
+Inicializa o diretorio do computador para enviar os arquivos e alterações
+```
+git init
+```
+
+Adiciona o arquivo para a área de preparo (antes do commit)
+```
+git add readme.md
+```
+
+Cria uma mensagem para o commit
+```
+git commit -m "adicionado arquivo readme.md"
+```
+<br>
+Você pode usar opções adicionais para personalizar o commit, como:
+
+- -A: Adiciona automaticamente todos os arquivos modificados no diretório de trabalho.
+- --verbose: Mostra mais informações sobre o commit, incluindo o hash do commit e os arquivos modificados.
+- --amend: Permite modificar a última mensagem do commit sem criar um novo commit.
+```
+git commit -A -m "Realizei diversas alterações no projeto"
+```
+
 <!--
 <div align="center" markdown="1">
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)&#160;
