@@ -2,8 +2,25 @@
 
 <br>
 
-## CONFIG - Configurando o Git
+## CLONE - Clonar um Repositorio Existente
 
+Se você já possui um repositório Git em um serviço de hospedagem como GitHub, utilize o comando ```git clone``` para cloná-lo no seu computador. Isso criará uma cópia local do repositório, incluindo todos os seus arquivos e histórico.
+```
+git clone https://<url_do_repositorio> <nome_do_diretorio_local>
+```
+
+<br>
+
+## INIT - inicializando um repositório
+
+O comando ```git init``` te permite transformar um simples diretório no seu computador em um repositório Git, pronto para registrar e acompanhar todas as mudanças que você fizer no seu projeto.
+```
+git init
+```
+
+<br>
+
+## CONFIG - Configurando o Git
 
 As configurações seguem a hierarquia de dentro pra fora, do mais específico (repositório) ao menos específico (sistema).
 
@@ -27,26 +44,33 @@ Para vincular sua conta Git, utilize a sintaxe:
 git config --global user.name "<seu_nome>"
 git config --global user.email "<seu_email>"
 ```
-
-
-
-<br>
-
-## CLONE - Clonar um Repositorio Existente
-
-Se você já possui um repositório Git em um serviço de hospedagem como GitHub, utilize o comando ```git clone``` para cloná-lo no seu computador. Isso criará uma cópia local do repositório, incluindo todos os seus arquivos e histórico.
-```
-git clone https://<url_do_repositorio> <nome_do_diretorio_local>
-```
+> [!TIP]
+> **Geração de chave SSH (opcional)**: Para autenticação segura em serviços remotos como GitHub, é recomendável gerar uma chave SSH. Siga as instruções do seu serviço de hospedagem para gerar e adicionar sua chave pública à sua conta.
 
 <br>
 
-## INIT - inicializando um repositório
+## Vincular o branch remoto
 
-O comando ```git init``` te permite transformar um simples diretório no seu computador em um repositório Git, pronto para registrar e acompanhar todas as mudanças que você fizer no seu projeto.
+Verificar o branch remoto: Utilize o comando git remote -v para verificar os branches remotos do repositório clonado. Identifique o nome do branch remoto que você deseja acompanhar no seu diretório local.
 ```
-git init
+git remote -v
 ```
+
+Vincular o branch local: Crie um branch local com o mesmo nome do branch remoto que você deseja acompanhar e vincule-o ao branch remoto:
+```
+git checkout -b <nome_do_branch_local>
+git branch --set-upstream-to=<nome_do_branch_remoto> <nome_do_branch_local>
+```
+
+> ### Exemplo:
+> ```
+> git clone https://github.com/usuario/repositorio.git meu_projeto
+> git config --global user.name "Seu Nome"
+> git config --global user.email "seu_email@exemplo.com"
+> git remote -v
+> git checkout -b main
+> git branch --set-upstream-to=origin/main main
+> ```
 
 <br>
 
