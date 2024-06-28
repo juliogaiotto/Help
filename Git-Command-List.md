@@ -4,11 +4,31 @@
 
 ## CONFIG - Configurando o Git
 
+
+As configurações seguem a hierarquia de dentro pra fora, do mais específico (repositório) ao menos específico (sistema).
+
+Configurações ao nivel de ***Repositório***.
+```
+git config --local ...
+```
+
+Configurações para o nivel de ***Usuários***.
+```
+git config --global ...
+```
+
+Configurações para o nivel de ***Sistema***.
+```
+git config --system ...
+```
+
 Para vincular sua conta Git, utilize a sintaxe:
 ```
 git config --global user.name "<seu_nome>"
 git config --global user.email "<seu_email>"
 ```
+
+
 
 <br>
 
