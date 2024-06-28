@@ -127,3 +127,10 @@ Verifica o status do commit, se existe alterações a serem "comitadas"
 ```
 git status
 ```
+
+<br><br>
+
+Sintaxe de gravação do GitHub: [GitHub - Guia de Inicia Rápido](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+
+Criação de diagramas e mais: [Mermaid](https://mermaid.js.org/syntax/block.html)
+
