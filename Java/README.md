@@ -1,6 +1,6 @@
 # Java
 
-### __Livros Java__
+### ___Livros Java___
 
 * [__Java como Programar - Paul Deitel, Harvey Deitel - 10ª Edição__](https://github.com/juliogaiotto/Knowledge-Base/blob/979b0cb87c506efd6eee43a63c0eefc8de2f3f9e/Java/Livros/Java%20como%20Programar%20-%2010%C2%B0%20Edi%C3%A7%C3%A3o%20-%20Paul%20e%20Harvey%20Deitel.pdf) <br>
   _Aprender Java de uma maneira completa e bem detalhada, do basico ao avançado. recomendado para quem conhecer tudo a respeito do Java_
@@ -13,6 +13,8 @@ _Livro para estudar e tirar certifiações, não é para aprender Java_
 
  
 ## JavaFX
+
+### ___Downloads___
 
 * [Oracle JDKs](https://jdk.java.net)
 
