@@ -9,6 +9,6 @@
   _Apreder Java de uma maneira mais suave e simples, com exemplos suaves, brincadeiras e analaogias_
   
 * __OCA/OCP Java SE Programmer I e II & Study Guide - Kathy Sierra, Bert Bates__ <br>
-_Livro para estudar e tirar certifiações_
+_Livro para estudar e tirar certifiações, não é para aprender Java_
 
  
