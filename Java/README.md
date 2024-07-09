@@ -16,7 +16,9 @@ _Livro para estudar e tirar certifiações, não é para aprender Java_
 
 ### ___Downloads___
 
+* [Oracle JavaFX - Instalation](https://www.oracle.com/java/technologies/install-javafx-sdk.html)
 * [Oracle JDKs](https://jdk.java.net)
-
-* [JavaFX Gluon Download](https://gluonhq.com/products/javafx/)
+* [JavaFX - Community](https://openjfx.io/)
+* [JavaFX - Gluon](https://gluonhq.com/products/javafx/)
+* 
 
