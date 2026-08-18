@@ -151,7 +151,7 @@ winget install Oracle.JavaRuntimeEnvironment --accept-source-agreements --accept
 
 #### PowerShell Atualizado (7.++)
 ```
-winget install Microsoft.PowerShell --source winget --scope machine
+winget install Microsoft.PowerShell --source winget
 ```
 
 #### .Net Framework
